@@ -6,6 +6,7 @@
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 <button class="btn btn-primary" @onclick="IncrementCount10">Click me</button>
+<button class="btn btn-primary"  @onclick="IncrementCount100">Click me</button>
 
 @code {
     private int currentCount = 0;
@@ -17,6 +18,11 @@
 
     private void IncrementCount10()
     {
-        currentCount++;
+        currentCount += 10;
+    }
+
+    private void IncrementCount100()
+    {
+        currentCount += 100;
     }
 }
