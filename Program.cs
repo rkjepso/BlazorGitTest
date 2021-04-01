@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace BlazorGitTest
 {
+    // TEST
     public class Program
     {
         public static async Task Main(string[] args)
